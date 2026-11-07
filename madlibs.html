@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Libs</title>
+
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" defer></script>
+    <script src="madlibs.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="imagesofhockey.html">Hockey Images</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+            <li><a href="makeover.html">Page Makeover</a></li>
+            <li><a href="scoreboard.html">Scoreboard</a></li>
+            <li><a href="madlibs.html">Mad Libs</a></li>
+            <li><a href="magic8ball.html">Magic 8-Ball</a></li>
+        </ul>
+    </nav>
+
+    <h1>Mad Libs Story Maker</h1>
+
+    <form id="madlibs">
+        <input type="text" id="name" placeholder="A person's name">
+        <input type="text" id="animal" placeholder="An animal">
+        <input type="text" id="food" placeholder="A food">
+        <input type="text" id="verb" placeholder="A verb (like jump)">
+        <button type="button" id="make-story">Make My Story</button>
+    </form>
+
+    <p id="story"></p>
+</body>
+
+</html>

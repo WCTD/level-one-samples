@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- use defer if you are putting scripts 
+        in the head element.
+     
+        These scripts will run after the page has loaded,
+        so you don't have to worry about the scripts running
+        before the page is ready.
+    -->
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" defer></script>
+    <script src="calculator.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="imagesofhockey.html">Hockey Images</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+            <li><a href="makeover.html">Page Makeover</a></li>
+            <li><a href="scoreboard.html">Scoreboard</a></li>
+            <li><a href="madlibs.html">Mad Libs</a></li>
+            <li><a href="magic8ball.html">Magic 8-Ball</a></li>
+        </ul>
+    </nav>
+
+    <h1>Calculator</h1>
+
+    <form id="calculator">
+        <input type="text" id="num1" placeholder="Enter first number">
+        <input type="text" id="num2" placeholder="Enter second number">
+        <button type="button" id="add">Add</button>
+        <button type="button" id="subtract">Subtract</button>
+        <button type="button" id="multiply">Multiply</button>
+        <button type="button" id="divide">Divide</button>
+    </form>
+
+    <p>Result: <div id="result"></div></p>
+</body>
+
+</html>

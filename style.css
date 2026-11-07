@@ -1,0 +1,43 @@
+h1 {
+    color: rgb(30, 103, 43);
+    font-family: sans-serif;
+
+}
+
+.two-content-column-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+li {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.kings {
+    color: silver;
+}
+
+li.kings {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+}
+
+.capitals {
+    color: red;
+}
+
+.penguins {
+    color: yellow;
+}
+
+@media (max-width: 600px) {
+    .two-content-column-layout {
+        grid-template-columns: 1fr;
+    }
+}
